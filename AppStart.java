@@ -10,7 +10,7 @@ public class AppStart
         switch(userEntry){
             case "GRANDE":
                 cup = Size.Large;
-                System.out.println("Name\t\t: LARGE");
+                System.out.println("Name\t\t:" + cup.name());
                 System.out.println("toString()\t:" + cup.toString());
                 System.out.println("Ordem\t\t:" + cup.ordinal());
                 System.out.println("Valor minimo\t:" + cup.getMinValue() );
@@ -19,7 +19,7 @@ public class AppStart
                 break;
             case "MEDIO":
                 cup = Size.MEDIUM;
-                System.out.println("Name\t\t: MEDIUM");
+                System.out.println("Name\t\t:" + cup.name());
                 System.out.println("toString()\t:" + cup.toString());
                 System.out.println("Ordem\t\t:" + cup.ordinal());
                 System.out.println("Valor minimo\t:" + cup.getMinValue() );
@@ -28,7 +28,7 @@ public class AppStart
                 break;
             case "PEQUENO":
                 cup = Size.SMALL;
-                System.out.println("Name\t\t: SMALL");
+                System.out.println("Name\t\t:" + cup.name());
                 System.out.println("toString()\t:" + cup.toString());
                 System.out.println("Ordem\t\t:" + cup.ordinal());
                 System.out.println("Valor minimo\t:" + cup.getMinValue() );
